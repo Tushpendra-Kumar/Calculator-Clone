@@ -1,0 +1,54 @@
+body {
+    background: rgba(0, 0, 255, 0.4); /* blue with 40% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    background: rgba(255, 0, 255, 0.4); /* purple with 40% opacity */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* 3D effect with shadow */
+  }
+  
+  .result {
+    background: #fff; /* white */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgba(0, 255, 255, 0.4); /* cyan with 40% opacity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 3D effect with shadow */
+  }
+  
+  .operator {
+    color: #fff; /* blue for operators */
+  }
+  
+  .equal {
+    background: yellow; /* yellow for equal button */
+  }
+  
+  .clear {
+    grid-column: span 2; /* span 2 columns for clear button */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* key pressed animation */
+  }
+  
