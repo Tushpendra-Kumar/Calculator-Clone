@@ -1,3 +1,4 @@
+/* Powered by CodeByTushu | Developed by Tushpendra Kumar | https://codebytushu.com */
 function appendToDisplay(value) {
     document.getElementById("result").innerText += value;
   }
